@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6C9FA1A2C10A26200F5018D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C9FA192C10A26200F5018D /* ContentView.swift */; };
+		D6C9FA1C2C10A26400F5018D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C9FA1B2C10A26400F5018D /* Assets.xcassets */; };
+		D6C9FA1F2C10A26400F5018D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C9FA1E2C10A26400F5018D /* Preview Assets.xcassets */; };
+		D6C9FA262C10A32F00F5018D /* EarningsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C9FA252C10A32F00F5018D /* EarningsViewModel.swift */; };
+		D6C9FA282C10A37700F5018D /* EarningsCalendarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C9FA272C10A37700F5018D /* EarningsCalendarApp.swift */; };
+		D6C9FA2A2C10A53600F5018D /* EarningsCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C9FA292C10A53600F5018D /* EarningsCalendar.swift */; };
+		D6C9FA2C2C10A91D00F5018D /* EarningsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C9FA2B2C10A91D00F5018D /* EarningsRowView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D6C9FA142C10A26200F5018D /* earnings calendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "earnings calendar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6C9FA192C10A26200F5018D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D6C9FA1B2C10A26400F5018D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6C9FA1E2C10A26400F5018D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D6C9FA252C10A32F00F5018D /* EarningsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarningsViewModel.swift; sourceTree = "<group>"; };
+		D6C9FA272C10A37700F5018D /* EarningsCalendarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarningsCalendarApp.swift; sourceTree = "<group>"; };
+		D6C9FA292C10A53600F5018D /* EarningsCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarningsCalendar.swift; sourceTree = "<group>"; };
+		D6C9FA2B2C10A91D00F5018D /* EarningsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarningsRowView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6C9FA112C10A26200F5018D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6C9FA0B2C10A26200F5018D = {
+			isa = PBXGroup;
+			children = (
+				D6C9FA162C10A26200F5018D /* earnings calendar */,
+				D6C9FA152C10A26200F5018D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6C9FA152C10A26200F5018D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6C9FA142C10A26200F5018D /* earnings calendar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6C9FA162C10A26200F5018D /* earnings calendar */ = {
+			isa = PBXGroup;
+			children = (
+				D6C9FA272C10A37700F5018D /* EarningsCalendarApp.swift */,
+				D6C9FA292C10A53600F5018D /* EarningsCalendar.swift */,
+				D6C9FA192C10A26200F5018D /* ContentView.swift */,
+				D6C9FA252C10A32F00F5018D /* EarningsViewModel.swift */,
+				D6C9FA2B2C10A91D00F5018D /* EarningsRowView.swift */,
+				D6C9FA1B2C10A26400F5018D /* Assets.xcassets */,
+				D6C9FA1D2C10A26400F5018D /* Preview Content */,
+			);
+			path = "earnings calendar";
+			sourceTree = "<group>";
+		};
+		D6C9FA1D2C10A26400F5018D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D6C9FA1E2C10A26400F5018D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6C9FA132C10A26200F5018D /* earnings calendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6C9FA222C10A26400F5018D /* Build configuration list for PBXNativeTarget "earnings calendar" */;
+			buildPhases = (
+				D6C9FA102C10A26200F5018D /* Sources */,
+				D6C9FA112C10A26200F5018D /* Frameworks */,
+				D6C9FA122C10A26200F5018D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "earnings calendar";
+			productName = "earnings calendar";
+			productReference = D6C9FA142C10A26200F5018D /* earnings calendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6C9FA0C2C10A26200F5018D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					D6C9FA132C10A26200F5018D = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = D6C9FA0F2C10A26200F5018D /* Build configuration list for PBXProject "earnings calendar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6C9FA0B2C10A26200F5018D;
+			productRefGroup = D6C9FA152C10A26200F5018D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6C9FA132C10A26200F5018D /* earnings calendar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6C9FA122C10A26200F5018D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C9FA1F2C10A26400F5018D /* Preview Assets.xcassets in Resources */,
+				D6C9FA1C2C10A26400F5018D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6C9FA102C10A26200F5018D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C9FA262C10A32F00F5018D /* EarningsViewModel.swift in Sources */,
+				D6C9FA1A2C10A26200F5018D /* ContentView.swift in Sources */,
+				D6C9FA2A2C10A53600F5018D /* EarningsCalendar.swift in Sources */,
+				D6C9FA2C2C10A91D00F5018D /* EarningsRowView.swift in Sources */,
+				D6C9FA282C10A37700F5018D /* EarningsCalendarApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D6C9FA202C10A26400F5018D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6C9FA212C10A26400F5018D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6C9FA232C10A26400F5018D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"earnings calendar/Preview Content\"";
+				DEVELOPMENT_TEAM = 6L84F4XJDL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diversset-lafkdjvq-woei-fjqer-pf-gol-mvqe-a-lsv--meds-p-vl..earnings-calendar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6C9FA242C10A26400F5018D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"earnings calendar/Preview Content\"";
+				DEVELOPMENT_TEAM = 6L84F4XJDL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diversset-lafkdjvq-woei-fjqer-pf-gol-mvqe-a-lsv--meds-p-vl..earnings-calendar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6C9FA0F2C10A26200F5018D /* Build configuration list for PBXProject "earnings calendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6C9FA202C10A26400F5018D /* Debug */,
+				D6C9FA212C10A26400F5018D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6C9FA222C10A26400F5018D /* Build configuration list for PBXNativeTarget "earnings calendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6C9FA232C10A26400F5018D /* Debug */,
+				D6C9FA242C10A26400F5018D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6C9FA0C2C10A26200F5018D /* Project object */;
+}
